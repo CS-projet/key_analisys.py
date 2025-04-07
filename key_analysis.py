@@ -31,7 +31,3 @@ class KeyAnalysis:
         return " Clé FAIBLE" if score < 0.5 else " Clé SÉCURISÉE"
 
 
-if __name__ == "__main__":
-    test_key = "EXEMPLE_CLE"
-    verdict = KeyAnalysis.analyze_key(test_key)
-    print(f" Analyse de la clé : {verdict}")
